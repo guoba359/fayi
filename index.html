@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>法议网 - 专业法律咨询服务平台</title>
+    <meta name="description" content="法议网提供专业律师在线咨询、法律问答、法律文书模板下载等服务，解决您的法律问题">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- 头部导航 -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>法议网</h1>
+                <p>专业法律咨询服务平台</p>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">首页</a></li>
+                    <li><a href="#ask">法律咨询</a></li>
+                    <li><a href="#lawyers">律师团队</a></li>
+                    <li><a href="#documents">法律文书</a></li>
+                    <li><a href="#about">关于我们</a></li>
+                    <li><a href="#contact">联系我们</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 首页横幅 -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>专业法律咨询，就在法议网</h2>
+                <p>免费在线咨询 · 专业律师解答 · 法律文书模板 · 案例分析参考</p>
+                <div class="hero-buttons">
+                    <a href="#ask" class="btn btn-primary">立即咨询</a>
+                    <a href="#documents" class="btn btn-secondary">文书模板</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 核心服务 -->
+    <section class="services">
+        <div class="container">
+            <h3>我们的服务</h3>
+            <div class="service-grid">
+                <div class="service-card">
+                    <div class="service-icon">⚖️</div>
+                    <h4>免费法律咨询</h4>
+                    <p>在线提交法律问题，专业律师免费解答</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">👨‍💼</div>
+                    <h4>律师匹配</h4>
+                    <p>根据您的需求，精准匹配专业领域律师</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📄</div>
+                    <h4>法律文书</h4>
+                    <p>提供各类法律文书模板，一键下载使用</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📚</div>
+                    <h4>案例参考</h4>
+                    <p>海量真实案例，为您提供参考依据</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 法律咨询区域 -->
+    <section id="ask" class="consultation">
+        <div class="container">
+            <h3>法律咨询</h3>
+            <div class="consultation-form">
+                <form>
+                    <div class="form-group">
+                        <label for="question">您的法律问题：</label>
+                        <textarea id="question" placeholder="请详细描述您的法律问题..." rows="4" required></textarea>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="category">问题分类：</label>
+                            <select id="category">
+                                <option value="">请选择</option>
+                                <option value="marriage">婚姻家庭</option>
+                                <option value="labor">劳动纠纷</option>
+                                <option value="contract">合同纠纷</option>
+                                <option value="property">房产纠纷</option>
+                                <option value="criminal">刑事案件</option>
+                                <option value="traffic">交通事故</option>
+                                <option value="other">其他</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact">联系方式：</label>
+                            <input type="text" id="contact" placeholder="电话/微信/邮箱">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">提交咨询</button>
+                </form>
+            </div>
+            
+            <!-- 热门问题示例 -->
+            <div class="hot-questions">
+                <h4>热门法律问题</h4>
+                <div class="question-list">
+                    <div class="question-item">
+                        <h5>安置房划拨地，房产证是我的名字，但爷爷奶奶要求入住怎么办？</h5>
+                        <p class="question-meta">婚姻家庭 · 12位律师已回复</p>
+                    </div>
+                    <div class="question-item">
+                        <h5>劳动合同到期后继续工作，但未续签合同，有什么风险？</h5>
+                        <p class="question-meta">劳动纠纷 · 8位律师已回复</p>
+                    </div>
+                    <div class="question-item">
+                        <h5>交通事故对方全责，但保险公司赔偿不够怎么办？</h5>
+                        <p class="question-meta">交通事故 · 15位律师已回复</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 律师团队 -->
+    <section id="lawyers" class="lawyers">
+        <div class="container">
+            <h3>专业律师团队</h3>
+            <div class="lawyer-grid">
+                <div class="lawyer-card">
+                    <div class="lawyer-avatar">👨‍💼</div>
+                    <h4>张律师</h4>
+                    <p class="lawyer-specialty">婚姻家庭 · 房产纠纷</p>
+                    <p class="lawyer-experience">10年执业经验</p>
+                </div>
+                <div class="lawyer-card">
+                    <div class="lawyer-avatar">👩‍💼</div>
+                    <h4>李律师</h4>
+                    <p class="lawyer-specialty">劳动纠纷 · 合同纠纷</p>
+                    <p class="lawyer-experience">8年执业经验</p>
+                </div>
+                <div class="lawyer-card">
+                    <div class="lawyer-avatar">👨‍💼</div>
+                    <h4>王律师</h4>
+                    <p class="lawyer-specialty">刑事案件 · 交通事故</p>
+                    <p class="lawyer-experience">12年执业经验</p>
+                </div>
+                <div class="lawyer-card">
+                    <div class="lawyer-avatar">👩‍💼</div>
+                    <h4>陈律师</h4>
+                    <p class="lawyer-specialty">公司法务 · 知识产权</p>
+                    <p class="lawyer-experience">15年执业经验</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 法律文书 -->
+    <section id="documents" class="documents">
+        <div class="container">
+            <h3>法律文书模板</h3>
+            <div class="document-categories">
+                <div class="category-card">
+                    <h4>婚姻家庭</h4>
+                    <ul>
+                        <li><a href="#">离婚协议书模板</a></li>
+                        <li><a href="#">婚前财产协议模板</a></li>
+                        <li><a href="#">抚养权协议模板</a></li>
+                    </ul>
+                </div>
+                <div class="category-card">
+                    <h4>劳动人事</h4>
+                    <ul>
+                        <li><a href="#">劳动合同模板</a></li>
+                        <li><a href="#">离职证明模板</a></li>
+                        <li><a href="#">劳动仲裁申请书模板</a></li>
+                    </ul>
+                </div>
+                <div class="category-card">
+                    <h4>合同协议</h4>
+                    <ul>
+                        <li><a href="#">房屋租赁合同模板</a></li>
+                        <li><a href="#">买卖合同模板</a></li>
+                        <li><a href="#">合作协议模板</a></li>
+                    </ul>
+                </div>
+                <div class="category-card">
+                    <h4>诉讼文书</h4>
+                    <ul>
+                        <li><a href="#">民事起诉状模板</a></li>
+                        <li><a href="#">答辩状模板</a></li>
+                        <li><a href="#">上诉状模板</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我们 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h3>关于我们</h3>
+            <div class="about-content">
+                <p>法议网致力于为公众提供专业、便捷、高效的法律咨询服务。我们汇聚了全国各地的专业律师，涵盖婚姻家庭、劳动纠纷、合同纠纷、房产纠纷、刑事案件、交通事故等多个法律领域。</p>
+                <p>通过法议网，您可以：</p>
+                <ul>
+                    <li>免费提交法律问题，获得专业律师解答</li>
+                    <li>下载各类法律文书模板，节省时间和费用</li>
+                    <li>查阅真实案例，了解类似问题的处理方式</li>
+                    <li>直接联系专业律师，获得一对一法律服务</li>
+                </ul>
+                <p>我们的使命是让法律服务触手可及，让每个人都能享受到专业的法律帮助。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我们 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h3>联系我们</h3>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h4>客服热线</h4>
+                    <p>400-123-4567</p>
+                </div>
+                <div class="contact-item">
+                    <h4>邮箱</h4>
+                    <p>service@fayi.com</p>
+                </div>
+                <div class="contact-item">
+                    <h4>工作时间</h4>
+                    <p>周一至周五 9:00-18:00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 法议网 - 专业法律咨询服务平台. 保留所有权利.</p>
+            <p>本网站提供的法律信息仅供参考，不构成法律建议。具体法律问题请咨询专业律师。</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
